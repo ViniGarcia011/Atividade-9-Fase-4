@@ -1,0 +1,246 @@
+/*estelizando o corpo principal*/
+body{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #000000;
+}
+h1{
+    color: #ffffff;
+}
+/*estelizando a fonte h2*/
+h2{
+    color: #ffffff;
+    text-align: left;
+    padding: 0;
+    font-size: 1.5rem;
+}
+/*estelizando a fonte h4*/
+h4{
+    text-align: center;
+    font-size: 1rem;
+}
+.linha-divisao {
+    width: 1990px;
+    height: 40px;
+    background-color: #600b0b; /* Cor da linha */
+    margin-left: -100px;
+    margin-bottom: 20px;
+}
+.ocultar-saldo{
+    color: #ffffff;
+    position: absolute;
+    top: 93px;
+    left: 60px;
+}
+.imagem-ocultar{
+    position: absolute;
+    width: 35px; /* Ajuste o valor para o tamanho desejado */
+    height: 35px; /* Ajuste o valor para o tamanho desejado */
+    top: 80px;
+}
+/*estelizando o primeiro card*/
+.card{
+    /* Estilos básicos para os cards */
+    color: #ffffff;
+    background-color: #600b0b;
+    border-radius: 30px;
+    padding: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.select-carton{
+    position: absolute;
+    right: 40px;
+    top: 228px;
+}
+.card-investimento{
+        /* Estilos básicos para os cards */
+        color: #ffffff;
+        background-color: #600b0b;
+        border-radius: 30px;
+        padding: 10px;
+        margin-bottom: 30px;
+}
+.botao-investimento{
+    position: absolute;
+    right: 40px;
+    top: 437px;
+}
+.card-bancos{
+    color: #ffffff;
+    background-color: #600b0b;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.botao-banco{
+    position: absolute;
+    right: 40px;
+    top: 555px;
+}
+.card-gastos{
+    color: #ffffff;
+    background-color: #600b0b;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.botao-gasto{
+    position: absolute;
+    right: 40px;
+    top: 670px;
+}
+footer{
+    color: #f9f9f9; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    position: relative; /* Posiciona o rodapé */
+    bottom: 0; /* Alinha ao fundo da página */
+    font-size: 1rem; /* Tamanho da fonte */
+    bottom: -100px;
+}
+.btc{
+    position: absolute;
+    left: 200px;
+    bottom: -215px;
+}
+.ltc{
+    position: absolute;
+    left: 400px;
+    bottom: -215px;
+}
+.card-grafico{
+    color: #ffffff;
+    background-color: #600b0b;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 41%
+}
+.linha-grafico{
+    position: absolute;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 30px;
+    padding: 1px;
+    width: 42%;
+    bottom: -175px;
+    
+}
+.linha-inicial{
+    position: absolute;
+    color: #ffffff;
+    background-color: #600b0b;
+    border-radius: 30px;
+    padding: 45px;
+    margin-bottom: 40px;
+    width: 94.5%;
+    z-index: -1;
+}
+.imagem-boneco{
+position: absolute;
+    left: 0px;
+    bottom: -340px;
+    width: 110px; /* Ajuste o valor para o tamanho desejado */
+    height: 75px; /* Ajuste o valor para o tamanho desejado */ 
+    border-radius: 100%; /* Cria um círculo perfeito */
+    z-index: 1; /* Mantém a imagem no plano da frente */
+}
+.imagem-wallet{
+    position: absolute;
+    width: 135px; /* Ajuste o valor para o tamanho desejado */
+    height: 100px; /* Ajuste o valor para o tamanho desejado */
+    bottom: -350px;
+    left: 120px;
+}
+.text-perfil{
+    display: none;
+    position: absolute;
+    background-color: #9a1111;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px;
+    bottom: -330px;
+    left: 100px;
+  }
+  img:hover + .text-perfil {
+    display: block;
+  }
+.imagem-grafico_inicial{
+    position: absolute;
+    width: 100px; /* Ajuste o valor para o tamanho desejado */
+    height: 80px; /* Ajuste o valor para o tamanho desejado */
+    bottom: -340px;
+    left: 270px;
+}
+.imagem-configuracao{
+    position: absolute;
+    width: 120px; /* Ajuste o valor para o tamanho desejado */
+    height: 70px; /* Ajuste o valor para o tamanho desejado */
+    bottom: -340px;
+    left: 400px;
+}
+.text-wallet{
+    display: none;
+    position: absolute;
+    background-color: #9a1111;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px;
+    bottom: -330px;
+    left: 220px;
+}
+img:hover + .text-wallet {
+    display: block;
+  }
+.text-investy{
+    display: none;
+    position: absolute;
+    background-color: #9a1111;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px;
+    bottom: -335px;
+    left: 355px;
+    z-index: 1;
+}
+img:hover + .text-investy {
+    display: block;
+  }
+.text-config{
+    display: none;
+    position: absolute;
+    background-color: #9a1111;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px;
+    bottom: -335px;
+    left: 500px;
+}
+img:hover + .text-config {
+    display: block;
+  }
+.titulo-fim{
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    text-align: right;
+    padding: 0;
+    font-size: 2rem;
+    z-index: 1;
+    bottom: -337px;
+    left: 1690px;
+}  
+::-webkit-scrollbar {
+    width: 15px; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #cc2f2f; 
+    border-radius: 50px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #ffffff; 
+    border-radius: 10px;
+  }
